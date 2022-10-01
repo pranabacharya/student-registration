@@ -9,7 +9,7 @@ btn.addEventListener("click", (e)=> {
     let userdob = dob.value;
     let useremail = email.value;
     let useraddress = add.value;
-    if(username !== '' || userdob !== '' || useremail !== '' || useraddress !== ''){
+    if(username !== '' && userdob !== '' && useremail !== '' && useraddress !== ''){
         localStorage.setItem("data", JSON.stringify({
             uname: username,
             udob: userdob,

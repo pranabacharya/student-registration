@@ -24,8 +24,8 @@ submitEdetail.addEventListener("click", (e) => {
     let uGradFull = gradFullMark.value;
     let uGradObtain = gradObtainMark.value;
 
-    if(uTenthSchlName !== '' || uTenthFull !== '' || uTenthObtain !== '' || uTwelthClgName !== '' ||
-        uTwelthFull !== '' || uTwelthObtain !== '' || uGradClgName !== '' || uGradFull !== '' || uGradObtain !== ''){
+    if(uTenthSchlName !== '' && uTenthFull !== '' && uTenthObtain !== '' && uTwelthClgName !== '' &&
+        uTwelthFull !== '' && uTwelthObtain !== '' && uGradClgName !== '' && uGradFull !== '' && uGradObtain !== ''){
             localStorage.setItem('e-data', JSON.stringify({
                 tenSchoolName : uTenthSchlName,
                 tenFullMark: uTenthFull,

@@ -11,7 +11,7 @@ finished.addEventListener('click', (e) => {
         uCompanyName = companyName.value,
         uMoreAbout = moreAbout.value;
 
-        if(uJobRole !== '' || uCompanyName !== '' || umoreAbout !== ''){
+        if(uJobRole !== '' && uCompanyName !== '' && umoreAbout !== ''){
             localStorage.setItem('job-experience', JSON.stringify({
                 userCompany: uCompanyName, 
                 userJobRole: uJobRole, 
