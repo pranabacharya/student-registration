@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="src/mydetails.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="mydetails-container">
+            <div class="personal-data" data-personal></div>
+            <div class="educational-data" data-educational></div>
+            <div class="experience-data" data-experience></div>
+        </div>
+        <div class="btn-container button-container-exp">
+            <input type="button" value="Back" onclick="window.location.href='/'">
+            <input type="button" value="Delete" onclick="clearLocalStorage()">
+            <input type="button" value="Finish" onclick="redirectToSucess()">
+        </div>
+    </div>
+</body>
+</html>
