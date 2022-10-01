@@ -12,7 +12,6 @@ gradObtainMark = document.querySelector("#obtained-mark-grad");
 
 
 const submitEdetail = document.querySelector("#submit-edetail");
-let educationalBasket = {}
 submitEdetail.addEventListener("click", (e) => {
     let uTenthSchlName = tenthSchoolName.value;
     let uTenthFull = tenthFullMark.value;

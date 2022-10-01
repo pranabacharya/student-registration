@@ -6,6 +6,7 @@ body{
     padding: 0;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
@@ -79,6 +80,9 @@ h3 {
     border-radius: 10px;
     padding: 5px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .mydetails-container {
     border-radius: 5px;
@@ -106,4 +110,10 @@ h3 {
     margin: 0.5px;
     margin-right: 9px;
     padding: 0.5px;
+}
+
+@media (max-width:500px) {
+    .main-container{
+        align-items: center;
+    }
 }
